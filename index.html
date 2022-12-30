@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <main>
+      <section class="section-score">
+        <div class="score-board">
+          <div class="score__board__score">
+            <div class="score-board__player">
+              <span class="score-board__player__label">Player</span>
+              <span class="score-board__player__total" id="player-score"
+                >0</span
+              >
+            </div>
+
+            <span class="score-board__score_divider">-</span>
+
+            <div class="score-board__computer">
+              <span class="score-board__computer__label">Computer</span>
+              <span class="score-board__computer__total" id="computer-score"
+                >0</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-result">
+        <div class="section-result__choices">
+          <div class="playerchoice"></div>
+          <div class="divider"></div>
+          <div class="computerchoice"></div>
+        </div>
+
+        <p class="result-title">Make your move</p>
+        <p class="result-subtitle"></p>
+      </section>
+
+      <section class="section-game">
+        <div class="section-game__choices">
+          <button class="btn btn-rock">
+            <img src="img/rock.png" alt="Rock" />
+          </button>
+
+          <button class="btn btn-paper">
+            <img src="img/paper.png" alt="Paper" />
+          </button>
+
+          <button class="btn btn-scissors">
+            <img src="img/scissors.png" alt="Scissors" />
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
