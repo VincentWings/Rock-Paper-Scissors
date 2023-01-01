@@ -10,7 +10,7 @@ Rock Paper Scissors is a simple game that has been played for generations. It is
 
 This JavaScript code creates a digital version of the game that allows a player to play against the computer. The player can choose rock, paper, or scissors by clicking on the corresponding button. The computer will then make its own choice at random. The result of the game is determined by the rules listed above, and the player's and computer's scores are updated accordingly. The game continues until one player reaches a maximum score of 10 points. At that point, the game ends and a winner is declared.
 
-The game of Rock Paper Scissors is implemented in JavaScript using the following steps:
+This game of Rock Paper Scissors is developed in JavaScript using the following steps:
 
 - Initialize the player's score and the computer's score to 0, and set the maximum score for the game to 10.
 - Select DOM elements for the score, result title and subtitle, and images for the player's and computer's choices.
