@@ -1,24 +1,42 @@
-# Rock Paper Scissors
+# Rock Paper Scissors - Digital Game  
 
-https://vincentwings.github.io/Rock-Paper-Scissors/
+[Play the Game](https://vincentwings.github.io/Rock-Paper-Scissors/)  
 
-Rock Paper Scissors is a simple game that has been played for generations. It is a two-player game where each player chooses one of three options: rock, paper, or scissors. The game works as follows:
+This project is a digital version of the classic **Rock Paper Scissors** game, where a player competes against the computer. The game follows the traditional rules:  
+- **Rock beats scissors**  
+- **Scissors beats paper**  
+- **Paper beats rock**  
 
-- Rock beats scissors
-- Scissors beats paper
-- Paper beats rock
+The goal is to be the first to reach a score of 10 points.  
 
-This JavaScript code creates a digital version of the game that allows a player to play against the computer. The player can choose rock, paper, or scissors by clicking on the corresponding button. The computer will then make its own choice at random. The result of the game is determined by the rules listed above, and the player's and computer's scores are updated accordingly. The game continues until one player reaches a maximum score of 10 points. At that point, the game ends and a winner is declared.
+## Features  
 
-This game of Rock Paper Scissors is developed in JavaScript using the following steps:
+- **Player vs. Computer**: The user selects rock, paper, or scissors, while the computer makes a random choice.  
+- **Score Tracking**: Displays and updates both the player's and computer's scores in real-time.  
+- **Game End & Winner Declaration**: The game continues until one player reaches a score of 10, at which point a winner is declared.  
+- **Dynamic Feedback**: Shows whether the player won or lost each round with visual indicators.  
 
-- Initialize the player's score and the computer's score to 0, and set the maximum score for the game to 10.
-- Select DOM elements for the score, result title and subtitle, and images for the player's and computer's choices.
-- Get DOM elements for the game choices and buttons for rock, paper, and scissors.
-- Initialize messages for the different game outcomes and define a function to randomly generate a choice for the computer.
-- Define a function to determine the result of the game once the maximum score has been reached, and separate functions to update the score and result title/subtitle when the player wins or loses.
-- Define a function to add a class to the button for the player's choice to indicate whether the player won or lost the round.
-- Define an event listener for each of the buttons that calls a function to play the game when the button is clicked.
-- Compare the player's choice and the computer's choice to determine the result of the game, and call the appropriate function to update the score and result title/subtitle.
-- Call the function to add a class to the button for the player's choice.
-- Continue the game until one player reaches the maximum score, at which point the game ends and a winner is declared.
+## Technologies Used  
+
+- **HTML5**: Page structure and layout.  
+- **CSS3**: Styling and visual effects.  
+- **JavaScript (Vanilla)**: Implements game logic, including event listeners, score tracking, and random choice generation.  
+
+## How It Works  
+
+1. The game initializes the player's and computer's scores at **0** and sets the maximum score to **10**.  
+2. DOM elements are selected for displaying the scores, result titles, and images representing player and computer choices.  
+3. The game defines separate functions for:  
+   - Randomly generating the computer’s choice.  
+   - Determining the result based on player and computer selections.  
+   - Updating scores and the result display after each round.  
+4. Event listeners are attached to buttons for **rock**, **paper**, and **scissors**, triggering the game logic upon each selection.  
+5. The game continues until one player reaches the maximum score, at which point the winner is declared.  
+
+## Skills Demonstrated  
+
+- **JavaScript Event Handling**: Efficient handling of user input and DOM manipulation.  
+- **Game Logic**: Implementing the rules and conditions for a fully functional game.  
+- **User Interface Feedback**: Providing real-time visual feedback for each game round.  
+
+This project showcases a fun and interactive game built entirely with JavaScript, enhancing user experience through smooth gameplay and visual updates. 🎮 
